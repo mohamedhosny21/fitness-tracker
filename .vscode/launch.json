@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Chatify Development",
+        "name": "Sweat Smart Development",
         "request": "launch",
         "type": "dart",
         "program": "lib/main_development.dart",
         "args": ["--flavor", "Development", "--target", "lib/main_Development.dart" ]
       },
       {
-        "name": "Chatify Production",
+        "name": "Sweat Smart Production",
         "request": "launch",
         "type": "dart",
         "program": "lib/main_production.dart",
