@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sweat_smart/main_production.dart';
+import 'package:sweat_smart/sweat_smart.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
