@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sweat_smart/core/app_router/routes.dart';
 import 'package:sweat_smart/core/constants/app_constants.dart';
-
+import 'package:sweat_smart/core/shared_widgets/back_button.dart';
 import 'widgets/get_started_description.dart';
 import 'widgets/get_started_image.dart';
 import 'widgets/get_started_page_indicator.dart';
@@ -22,6 +22,7 @@ class TrackingOnboardingScreen extends StatelessWidget {
             const GetStartedImage(
               image: AppConstants.trackGetStartedImage,
             ),
+            const CustomBackButton(),
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
