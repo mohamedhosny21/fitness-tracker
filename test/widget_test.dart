@@ -7,12 +7,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:sweat_smart/core/app_router/app_router.dart';
 import 'package:sweat_smart/sweat_smart.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const SweatSmart());
+    await tester.pumpWidget(SweatSmart(
+      appRouter: AppRouter(),
+    ));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
