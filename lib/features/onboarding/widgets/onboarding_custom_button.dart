@@ -14,6 +14,8 @@ class OnboardingCustomButton extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(bottom: 20.0.h),
       child: MaterialButton(
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.r)),
         onPressed: () {
           Navigator.pushNamed(context, routeName);
         },

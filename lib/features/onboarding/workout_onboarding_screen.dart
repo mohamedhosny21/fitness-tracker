@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../core/app_router/routes.dart';
 import '../../core/constants/app_constants.dart';
+import '../../core/shared_widgets/back_button.dart';
 import 'widgets/get_started_description.dart';
 import 'widgets/get_started_image.dart';
 import 'widgets/get_started_page_indicator.dart';
@@ -22,6 +23,7 @@ class WorkoutOnboardingScreen extends StatelessWidget {
             const GetStartedImage(
               image: AppConstants.workoutGetStartedImage,
             ),
+            const CustomBackButton(),
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
