@@ -4,13 +4,14 @@ name: Android Fastlane With Firebase App Distribution # Optional: Workflow Name
 on:    
   push: 
     branches: 
-      - main 
+      - main  
 jobs:   # Groups together all the jobs that run in this workflow. 
   distribute_to_firebase:  # Job Name
     runs-on: ubuntu-latest  
     steps:
       - name: Checkout repository code
-        uses: actions/checkout@v4  
+        uses: actions/checkout@v4
+          
 
       - name: Setup JDK 17   
         uses: actions/setup-java@v4
