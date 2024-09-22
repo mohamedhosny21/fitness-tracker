@@ -175,6 +175,42 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:829298540112:android:cc92d48c7ac2a0e2ffdb55",
+        "android_client_info": {
+          "package_name": "com.example.sweat_smart.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829298540112-ermu05tspbsjin7fsg7mtdcgl5tmmhn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAuD-Ewp5x4TQ5Hivrd1qzQJ0SeHBN2aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829298540112-ermu05tspbsjin7fsg7mtdcgl5tmmhn5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "829298540112-an9nlohs6uv1edbbfuts172ieqo3eml6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.homeSlice.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:829298540112:android:bd9a582291e9fefbffdb55",
         "android_client_info": {
           "package_name": "com.qapps.padelappdemo"
