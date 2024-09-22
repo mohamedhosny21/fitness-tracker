@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sweat_smart/core/app_router/routes.dart';
 import 'package:sweat_smart/core/constants/app_constants.dart';
-import 'package:sweat_smart/features/onboarding/widgets/get_started_description.dart';
-import 'package:sweat_smart/features/onboarding/widgets/get_started_image.dart';
-import 'package:sweat_smart/features/onboarding/widgets/get_started_page_indicator.dart';
-import 'package:sweat_smart/features/onboarding/widgets/get_started_title.dart';
+import 'package:sweat_smart/core/dimensions/app_dimensions.dart';
+import 'package:sweat_smart/features/onboarding/widgets/onboarding_description.dart';
+import 'package:sweat_smart/features/onboarding/widgets/onboarding_image.dart';
+import 'package:sweat_smart/features/onboarding/widgets/onboarding_page_indicator.dart';
+import 'package:sweat_smart/features/onboarding/widgets/onboarding_title.dart';
 import 'package:sweat_smart/features/onboarding/widgets/onboarding_custom_button.dart';
 
 class GetStartedScreen extends StatelessWidget {
@@ -18,34 +18,28 @@ class GetStartedScreen extends StatelessWidget {
         child: Stack(
           alignment: AlignmentDirectional.topCenter,
           children: [
-            const GetStartedImage(
+            const OnboardingImage(
               image: AppConstants.welcomeGetStartedImage,
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                const GetStartedTitle(
+                const OnboardingTitle(
                   title: 'Welcome to Sweat Smart',
                 ),
-                SizedBox(
-                  height: 15.h,
-                ),
-                const GetStartedDescription(
+                AppDimensions.verticalSpacing15,
+                const OnboardingDescription(
                   description:
                       'Kickstart your fitness journey with personalized workouts and progress tracking. Let\'s help you reach your goals, one step at a time!',
                 ),
-                SizedBox(
-                  height: 28.h,
-                ),
-                const GetStartedPageIndicator(
+                AppDimensions.verticalSpacing28,
+                const OnboardingPageIndicator(
                   pageIndex: 1,
                 ),
-                SizedBox(
-                  height: 24.h,
-                ),
+                AppDimensions.verticalSpacing24,
                 const OnboardingCustomButton(
                   routeName: AppRoutes.trackingOnboardingScreen,
-                  text: 'Get Started',
+                  text: 'Next',
                 )
               ],
             ),

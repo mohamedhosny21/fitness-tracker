@@ -55,7 +55,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAAuD-Ewp5x4TQ5Hivrd1qzQJ0SeHBN2aM',
-    appId: '1:829298540112:android:90cbb32cbd260332ffdb55',
+    appId: '1:829298540112:android:cc92d48c7ac2a0e2ffdb55',
     messagingSenderId: '829298540112',
     projectId: 'flutter-maps-d6a2e',
     storageBucket: 'flutter-maps-d6a2e.appspot.com',
@@ -81,4 +81,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-maps-d6a2e.appspot.com',
     measurementId: 'G-4HF4R0H7E9',
   );
+
 }

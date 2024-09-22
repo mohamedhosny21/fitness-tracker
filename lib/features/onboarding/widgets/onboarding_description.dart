@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sweat_smart/core/dimensions/app_dimensions.dart';
 
 import '../../../core/theming/styles.dart';
 
-class GetStartedDescription extends StatelessWidget {
+class OnboardingDescription extends StatelessWidget {
   final String description;
-  const GetStartedDescription({super.key, required this.description});
+  const OnboardingDescription({super.key, required this.description});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 20.w),
+      padding: AppDimensions.paddingSymmetricHorizontal20,
       child: Text(
         textAlign: TextAlign.center,
         description,

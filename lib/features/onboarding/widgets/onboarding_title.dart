@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../../../core/theming/styles.dart';
 
-class GetStartedTitle extends StatelessWidget {
+class OnboardingTitle extends StatelessWidget {
   final String title;
-  const GetStartedTitle({super.key, required this.title});
+  const OnboardingTitle({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
