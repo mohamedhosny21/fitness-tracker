@@ -16,12 +16,11 @@ class SweatSmart extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Sweat Smart',
-        initialRoute: AppRoutes.getStartedScreen,
+        initialRoute: AppRoutes.welcomeOnboardingScreen,
         onGenerateRoute: appRouter.onGenerateRoute,
         theme: ThemeData(
           fontFamily: 'Poppins',
           scaffoldBackgroundColor: Colors.black,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
       ),

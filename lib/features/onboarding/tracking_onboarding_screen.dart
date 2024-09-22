@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sweat_smart/core/app_router/routes.dart';
 import 'package:sweat_smart/core/constants/app_constants.dart';
+import 'package:sweat_smart/core/dimensions/app_dimensions.dart';
 import 'package:sweat_smart/core/shared_widgets/back_button.dart';
-import 'widgets/get_started_description.dart';
-import 'widgets/get_started_image.dart';
-import 'widgets/get_started_page_indicator.dart';
-import 'widgets/get_started_title.dart';
+import 'widgets/onboarding_description.dart';
+import 'widgets/onboarding_image.dart';
+import 'widgets/onboarding_page_indicator.dart';
+import 'widgets/onboarding_title.dart';
 import 'widgets/onboarding_custom_button.dart';
 
 class TrackingOnboardingScreen extends StatelessWidget {
@@ -19,32 +19,26 @@ class TrackingOnboardingScreen extends StatelessWidget {
         child: Stack(
           alignment: AlignmentDirectional.topCenter,
           children: [
-            const GetStartedImage(
+            const OnboardingImage(
               image: AppConstants.trackGetStartedImage,
             ),
             const CustomBackButton(),
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                const GetStartedTitle(
+                const OnboardingTitle(
                   title: 'Track Your Progress',
                 ),
-                SizedBox(
-                  height: 15.h,
-                ),
-                const GetStartedDescription(
+                AppDimensions.verticalSpacing15,
+                const OnboardingDescription(
                   description:
                       'Stay on top of your fitness journey with real-time tracking and insights. Monitor your progress and achieve your goals faster!',
                 ),
-                SizedBox(
-                  height: 28.h,
-                ),
-                const GetStartedPageIndicator(
+                AppDimensions.verticalSpacing28,
+                const OnboardingPageIndicator(
                   pageIndex: 2,
                 ),
-                SizedBox(
-                  height: 24.h,
-                ),
+                AppDimensions.verticalSpacing24,
                 const OnboardingCustomButton(
                   routeName: AppRoutes.workoutOnboardingScreen,
                   text: 'Next',
