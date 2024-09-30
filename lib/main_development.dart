@@ -1,4 +1,6 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -11,7 +13,12 @@ void main() async {
   await ScreenUtil.ensureScreenSize();
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(SweatSmart(
-    appRouter: AppRouter(),
-  ));
+  runApp(
+    DevicePreview(
+      builder: (BuildContext context) => SweatSmart(
+        appRouter: AppRouter(),
+      ),
+      enabled: !kReleaseMode,
+    ),
+  );
 }

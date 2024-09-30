@@ -8,9 +8,11 @@ class OnboardingTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      title,
-      style: AppStyles.font25WhiteSemiBold,
+    return Center(
+      child: Text(
+        title,
+        style: AppStyles.font25WhiteSemiBold,
+      ),
     );
   }
 }
