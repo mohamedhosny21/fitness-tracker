@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/circular_progress_indicator_overall_tracker.dart';
-import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/motivation_tracker_progress_text.dart';
+import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/overall_tracker_progress_text.dart';
+import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/progress_percentage.dart';
 
 import '../../../../core/dimensions/app_dimensions.dart';
 import '../../../../core/theming/colors.dart';
-import '../../../../core/theming/styles.dart';
 
 class OverallTrackerProgressContainer extends StatelessWidget {
   const OverallTrackerProgressContainer({super.key});
@@ -20,23 +20,16 @@ class OverallTrackerProgressContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(20.r),
         color: AppColors.lightGreen,
       ),
-      child: Stack(
-        alignment: Alignment.centerLeft,
+      child: Row(
         children: [
-          Row(
+          const Stack(
             children: [
-              const CircularProgressIndicatorOverallTracker(),
-              AppDimensions.horizontalSpacing12,
-              const MotivationTrackerProgressText()
+              CircularProgressIndicatorOverallTracker(),
+              ProgressPercentage()
             ],
           ),
-          Positioned(
-            left: 15.w,
-            child: Text(
-              '75%',
-              style: AppStyles.font25BlackBold,
-            ),
-          )
+          AppDimensions.horizontalSpacing12,
+          const OverallTrackerProgressText()
         ],
       ),
     );
