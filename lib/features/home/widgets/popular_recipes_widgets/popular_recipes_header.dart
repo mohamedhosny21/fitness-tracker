@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/theming/styles.dart';
+import '../../../../core/theming/styles.dart';
 
 class PopularRecipesHeader extends StatelessWidget {
   const PopularRecipesHeader({super.key});

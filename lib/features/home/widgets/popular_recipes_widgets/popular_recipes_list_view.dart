@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sweat_smart/features/home/widgets/popular_recipe_item.dart';
+import 'package:sweat_smart/features/home/widgets/popular_recipes_widgets/popular_recipe_item.dart';
 
 class PopularRecipesListView extends StatelessWidget {
   const PopularRecipesListView({super.key});

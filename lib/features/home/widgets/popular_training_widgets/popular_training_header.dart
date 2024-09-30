@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/theming/styles.dart';
+import '../../../../core/theming/styles.dart';
 
 class PopularTrainingHeader extends StatelessWidget {
   const PopularTrainingHeader({super.key});

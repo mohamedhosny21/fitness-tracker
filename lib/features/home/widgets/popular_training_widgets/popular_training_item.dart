@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sweat_smart/features/home/widgets/popular_training_view_all.dart';
-import '../../../core/constants/app_constants.dart';
-import '../../../core/dimensions/app_dimensions.dart';
-import '../../../core/theming/styles.dart';
+import 'package:sweat_smart/features/home/widgets/popular_training_widgets/popular_training_view_all.dart';
+import '../../../../core/constants/app_constants.dart';
+import '../../../../core/dimensions/app_dimensions.dart';
+import '../../../../core/theming/styles.dart';
 
 class PopularTrainingItem extends StatelessWidget {
   final int itemIndex;

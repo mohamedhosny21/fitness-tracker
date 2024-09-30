@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sweat_smart/features/home/widgets/circular_progress_indicator_overall_tracker.dart';
-import 'package:sweat_smart/features/home/widgets/motivation_tracker_progress_text.dart';
+import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/circular_progress_indicator_overall_tracker.dart';
+import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/motivation_tracker_progress_text.dart';
 
-import '../../../core/dimensions/app_dimensions.dart';
-import '../../../core/theming/colors.dart';
-import '../../../core/theming/styles.dart';
+import '../../../../core/dimensions/app_dimensions.dart';
+import '../../../../core/theming/colors.dart';
+import '../../../../core/theming/styles.dart';
 
 class OverallTrackerProgressContainer extends StatelessWidget {
   const OverallTrackerProgressContainer({super.key});

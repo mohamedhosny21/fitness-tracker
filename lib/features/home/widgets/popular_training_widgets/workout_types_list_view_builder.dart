@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sweat_smart/core/theming/colors.dart';
 
-import '../../../core/dimensions/app_dimensions.dart';
-import '../../../core/theming/styles.dart';
+import '../../../../core/dimensions/app_dimensions.dart';
+import '../../../../core/theming/styles.dart';
 
 class WorkoutTypesListViewBuilder extends StatelessWidget {
   const WorkoutTypesListViewBuilder({super.key});

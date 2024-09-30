@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sweat_smart/features/home/widgets/popular_training_item.dart';
+import 'package:sweat_smart/features/home/widgets/popular_training_widgets/popular_training_item.dart';
 
 class PopularTrainingListView extends StatelessWidget {
   const PopularTrainingListView({super.key});

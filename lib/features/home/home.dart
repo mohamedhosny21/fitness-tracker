@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:sweat_smart/core/dimensions/app_dimensions.dart';
-import 'package:sweat_smart/features/home/widgets/home_header.dart';
-import 'package:sweat_smart/features/home/widgets/overall_tracker_progress_container.dart';
-import 'package:sweat_smart/features/home/widgets/popular_recipes_header.dart';
-import 'package:sweat_smart/features/home/widgets/popular_recipes_list_view.dart';
-import 'package:sweat_smart/features/home/widgets/popular_training_header.dart';
-import 'package:sweat_smart/features/home/widgets/popular_training_list_view.dart';
-import 'package:sweat_smart/features/home/widgets/premium_personal_coach_container.dart';
-import 'package:sweat_smart/features/home/widgets/premium_personal_coach_header.dart';
-import 'package:sweat_smart/features/home/widgets/workout_types_list_view_builder.dart';
+import 'package:sweat_smart/features/home/widgets/home_header_widgets/home_header.dart';
+import 'package:sweat_smart/features/home/widgets/home_tracking_overview_widgets/overall_tracker_progress_container.dart';
+import 'package:sweat_smart/features/home/widgets/popular_recipes_widgets/popular_recipes_header.dart';
+import 'package:sweat_smart/features/home/widgets/popular_recipes_widgets/popular_recipes_list_view.dart';
+import 'package:sweat_smart/features/home/widgets/popular_training_widgets/popular_training_header.dart';
+import 'package:sweat_smart/features/home/widgets/popular_training_widgets/popular_training_list_view.dart';
+import 'package:sweat_smart/features/home/widgets/premium_coaching_widgets/premium_personal_coach_container.dart';
+import 'package:sweat_smart/features/home/widgets/premium_coaching_widgets/premium_personal_coach_header.dart';
+import 'package:sweat_smart/features/home/widgets/popular_training_widgets/workout_types_list_view_builder.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

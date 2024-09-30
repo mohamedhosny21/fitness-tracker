@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../core/constants/app_constants.dart';
-import '../../../core/dimensions/app_dimensions.dart';
-import '../../../core/theming/styles.dart';
+import '../../../../core/constants/app_constants.dart';
+import '../../../../core/dimensions/app_dimensions.dart';
+import '../../../../core/theming/styles.dart';
 
 class PremiumPersonalCoachHeader extends StatelessWidget {
   const PremiumPersonalCoachHeader({super.key});

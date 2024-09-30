@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sweat_smart/features/home/widgets/subscribe_now_button.dart';
+import 'package:sweat_smart/features/home/widgets/premium_coaching_widgets/subscribe_now_button.dart';
 
-import '../../../core/constants/app_constants.dart';
-import '../../../core/dimensions/app_dimensions.dart';
-import '../../../core/theming/colors.dart';
-import '../../../core/theming/styles.dart';
+import '../../../../core/constants/app_constants.dart';
+import '../../../../core/dimensions/app_dimensions.dart';
+import '../../../../core/theming/colors.dart';
+import '../../../../core/theming/styles.dart';
 
 class PremiumPersonalCoachContainer extends StatelessWidget {
   const PremiumPersonalCoachContainer({super.key});

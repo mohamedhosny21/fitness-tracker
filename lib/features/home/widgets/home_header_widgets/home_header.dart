@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sweat_smart/features/home/widgets/welcome_message.dart';
+import 'package:sweat_smart/features/home/widgets/home_header_widgets/welcome_message.dart';
 
 import 'notification_icon.dart';
 
