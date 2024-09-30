@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sweat_smart/core/app_router/routes.dart';
-import 'package:sweat_smart/features/settings/sd.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
