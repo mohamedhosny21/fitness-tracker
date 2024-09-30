@@ -23,7 +23,7 @@ class CustomTextformfield extends StatelessWidget {
     return TextFormField(
       style: const TextStyle(color: AppColors.lightGreen),
       controller: controller,
-      cursorColor: AppColors.white,
+      cursorColor: Colors.white,
       keyboardType: keyboardType,
       onTapOutside: (event) {
         FocusScope.of(context).unfocus();
@@ -38,7 +38,7 @@ class CustomTextformfield extends StatelessWidget {
               borderSide: BorderSide(color: Colors.red)),
           enabledBorder: const OutlineInputBorder(
               borderSide: BorderSide(
-            color: AppColors.lightGreen,
+            color: AppColors.grey,
           )),
           focusedBorder: const OutlineInputBorder(
               borderSide: BorderSide(color: AppColors.lightGreen, width: 2.5)),
@@ -46,6 +46,7 @@ class CustomTextformfield extends StatelessWidget {
           labelStyle: AppStyles.font20WhiteMedium,
           floatingLabelBehavior: FloatingLabelBehavior.always,
           hintText: hintText,
+          hintStyle: AppStyles.font14GreyRegular,
           suffix: suffix),
     );
   }

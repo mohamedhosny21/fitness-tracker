@@ -36,7 +36,7 @@ class _CustomDropDownButtonTextformfieldState
         maxLines: 1,
         overflow: TextOverflow.ellipsis,
         widget.hintText,
-        style: AppStyles.font11greyRegular,
+        style: AppStyles.font11GreyRegular,
       ),
       autovalidateMode: AutovalidateMode.onUserInteraction,
       validator: _validator,
@@ -65,7 +65,7 @@ class _CustomDropDownButtonTextformfieldState
         labelStyle: AppStyles.font20WhiteMedium.copyWith(fontSize: 16.sp),
         enabledBorder: const OutlineInputBorder(
             borderSide: BorderSide(
-          color: AppColors.lightGreen,
+          color: AppColors.grey,
         )),
         focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: AppColors.lightGreen, width: 2.5)),

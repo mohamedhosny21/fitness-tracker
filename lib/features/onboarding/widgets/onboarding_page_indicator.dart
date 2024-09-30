@@ -18,7 +18,7 @@ class OnboardingPageIndicator extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                  color: pageIndex == 1 ? AppColors.white : AppColors.grey,
+                  color: pageIndex == 1 ? Colors.white : AppColors.grey,
                   shape: BoxShape.circle),
               width: 7.7.w,
               height: 7.7.h,
@@ -26,7 +26,7 @@ class OnboardingPageIndicator extends StatelessWidget {
             AppDimensions.horizontalSpacing8,
             Container(
               decoration: BoxDecoration(
-                  color: pageIndex == 2 ? AppColors.white : AppColors.grey,
+                  color: pageIndex == 2 ? Colors.white : AppColors.grey,
                   shape: BoxShape.circle),
               width: 7.7.w,
               height: 7.7.h,
@@ -34,7 +34,7 @@ class OnboardingPageIndicator extends StatelessWidget {
             AppDimensions.horizontalSpacing8,
             Container(
               decoration: BoxDecoration(
-                  color: pageIndex == 3 ? AppColors.white : AppColors.grey,
+                  color: pageIndex == 3 ? Colors.white : AppColors.grey,
                   shape: BoxShape.circle),
               width: 7.7.w,
               height: 7.7.h,
