@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../theming/colors.dart';
-
 class CustomBackButton extends StatelessWidget {
   const CustomBackButton({super.key});
 
@@ -12,7 +10,7 @@ class CustomBackButton extends StatelessWidget {
       top: 0,
       left: 0,
       child: BackButton(
-        color: AppColors.white,
+        color: Colors.white,
         style: ButtonStyle(
           iconSize: WidgetStatePropertyAll(
             30.w,
