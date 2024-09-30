@@ -9,6 +9,9 @@ abstract class AppDimensions {
   static SizedBox verticalSpacing50 = SizedBox(
     height: 50.h,
   );
+  static SizedBox verticalSpacing40 = SizedBox(
+    height: 40.h,
+  );
   static SizedBox verticalSpacing24 = SizedBox(
     height: 24.h,
   );
@@ -21,6 +24,9 @@ abstract class AppDimensions {
   );
   static SizedBox verticalSpacing10 = SizedBox(
     height: 10.h,
+  );
+  static SizedBox verticalSpacing5 = SizedBox(
+    height: 5.h,
   );
   static SizedBox horizontalSpacing8 = SizedBox(
     width: 8.w,
@@ -42,11 +48,15 @@ abstract class AppDimensions {
 
   static EdgeInsetsGeometry paddingSymmetricH15V10 =
       EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h);
+  static EdgeInsetsGeometry paddingSymmetricH15V5 =
+      EdgeInsets.symmetric(horizontal: 15.w, vertical: 5.h);
+  static EdgeInsetsGeometry paddingLeft10Bottom20 =
+      EdgeInsets.only(left: 10.w, bottom: 20.h);
 
   static EdgeInsetsGeometry paddingBottom20 = EdgeInsets.only(bottom: 20.0.h);
 
-  static EdgeInsetsGeometry paddingL10T80R10B0 =
-      EdgeInsets.fromLTRB(10.w, 80.h, 10.w, 0.h);
+  static EdgeInsetsGeometry paddingL10T50R10B0 =
+      EdgeInsets.fromLTRB(10.w, 50.h, 10.w, 0.h);
 
   static EdgeInsetsGeometry paddingL10T30R10B10 =
       EdgeInsets.fromLTRB(10.w, 30.h, 10.w, 10.h);
