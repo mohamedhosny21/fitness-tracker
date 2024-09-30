@@ -18,13 +18,13 @@ class UserConfigOnboardingScreen extends StatelessWidget {
       resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Container(
-          padding: AppDimensions.paddingL10T80R10B0,
+          padding: AppDimensions.paddingL10T50R10B0,
           child: Form(
             key: formKey,
             child: Column(
               children: [
                 const UserConfigurationMessage(),
-                AppDimensions.verticalSpacing70,
+                AppDimensions.verticalSpacing50,
                 NameTextformfield(),
                 AppDimensions.verticalSpacing50,
                 const UsersDimensionsTextformfield(),
